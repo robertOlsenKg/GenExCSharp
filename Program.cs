@@ -1,7 +1,7 @@
 ﻿
 using System;
 using System.Collections.Generic;
-namespace GenericStackCollection
+namespace GenExCSharp
 {
     public class Person
 {
