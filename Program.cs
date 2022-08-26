@@ -3,10 +3,10 @@ using System;
 using System.Collections.Generic;
 namespace GenExCSharp
 {
-    public class Person
+    public class Person //en enkel klass
 {
     public string Name;
-    public Person()
+    public Person() //Konstruktor
     {
         Name = "unknown";
     }
