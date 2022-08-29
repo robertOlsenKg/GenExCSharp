@@ -19,7 +19,7 @@ namespace GenExCSharp
         public static void Main()
         {
 
-            Stack<int> intstack = new Stack<int>(); //Deklarerar en stack för heltal
+            Stack<int> intstack = new Stack<int>(); //Deklarerar en stack för heltal <typparameter>
             intstack.Push(10);  //Lägger till tre tal i stacken
             intstack.Push(20);
             intstack.Push(30);
