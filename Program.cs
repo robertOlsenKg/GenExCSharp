@@ -42,7 +42,7 @@ namespace GenExCSharp
 
             Queue<int> intqueue = new Queue<int>();     //Deklarerar en kö för heltal
             intqueue.Enqueue(10);   //Lägger in tre tal i kön
-            intqueue.Enqueue(20);
+            intqueue.Enqueue(20);   //kommentar
             intqueue.Enqueue(30);
 
             Person person3=new Person();
