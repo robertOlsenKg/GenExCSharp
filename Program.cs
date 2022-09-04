@@ -62,6 +62,28 @@ namespace GenExCSharp
             Console.Write(persqueue.Dequeue().Name+"\n");   //Tar bort och skriver ut namnen på det första objekten i kön
             Console.Write(persqueue.Dequeue().Name+"\n");
 
+            List<Person> perslist = new List<Person>();//Deklarerar en lista för personobjekt
+            perslist.Add(person1);//Lägger till tre objekt sist i listan
+            perslist.Add(person2);
+            perslist.Add(person3);
+            Console.Write("__________\n");  //För att sära på utskrifterna
+            foreach(var item in perslist)   //Skriver ut namnen på objekten i listan
+                Console.Write(item.Name+"\n");
+            Console.Write("__________\n");
+
+            perslist.Insert(1,person4); //Lägger till ett objekt på position 1
+
+            foreach(var item in perslist)
+                Console.Write(item.Name+"\n");
+            Console.Write("__________\n");
+
+            perslist.RemoveAt(2);   //Tar bort objektet på position 2
+
+              foreach(var item in perslist)
+                Console.Write(item.Name+"\n");
+            Console.Write("__________\n");
+
+
             Console.ReadKey();  //Väntar på att en tangent ska tryckas ned
         }
     } 
