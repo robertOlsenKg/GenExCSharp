@@ -1,6 +1,6 @@
 ﻿
 using System;
-using System.Collections.Generic;
+using System.Collections.Generic;   //För att kunna använda generiska klasser
 namespace GenExCSharp
 {
     public class Person //en enkel klass
